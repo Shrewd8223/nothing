@@ -1,0 +1,42 @@
+git
+shreedhar_gehlot@PSL-FNH4XM3 MINGW64 ~/Desktop/git/simple (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   hello.txt
+
+
+shreedhar_gehlot@PSL-FNH4XM3 MINGW64 ~/Desktop/git/simple (main)
+$ git branch
+* main
+
+shreedhar_gehlot@PSL-FNH4XM3 MINGW64 ~/Desktop/git/simple (main)
+$ git remote rename origin neww
+
+shreedhar_gehlot@PSL-FNH4XM3 MINGW64 ~/Desktop/git/simple (main)
+$ git remote
+neww
+
+shreedhar_gehlot@PSL-FNH4XM3 MINGW64 ~/Desktop/git/simple (main)
+$ git push neww main
+Everything up-to-date
+
+shreedhar_gehlot@PSL-FNH4XM3 MINGW64 ~/Desktop/git/simple (main)
+$ git push neww master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/Shrewd8223/nothing.git'
+
+shreedhar_gehlot@PSL-FNH4XM3 MINGW64 ~/Desktop/git/simple (main)
+$ git branch
+* main
+
+shreedhar_gehlot@PSL-FNH4XM3 MINGW64 ~/Desktop/git/simple (main)
+$ pwd
+/c/Users/shreedhar_gehlot/Desktop/git/simple
+
+shreedhar_gehlot@PSL-FNH4XM3 MINGW64 ~/Desktop/git/simple (main)
+$ touch hello.txt
+
